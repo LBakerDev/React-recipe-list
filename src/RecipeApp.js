@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Recipe from './Recipe';
+//import Recipe from './Recipe';
 import NavBar from './navBar';
 import './RecipeApp.css';
 import RecipeList from './RecipeList';

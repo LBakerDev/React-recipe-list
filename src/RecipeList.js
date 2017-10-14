@@ -8,17 +8,17 @@ class RecipeList extends Component {
         recipes: [
             {
             title: "Spaghetti", 
-            ingredients: ["pasta"],
+            ingredients: ["pasta", "fruit"],
             img: "spaghetti.jpeg"
             },
             {
             title: "Spaghetti", 
-            ingredients: ["pasta"],
+            ingredients: ["pasta", "fruit"],
             img: "spaghetti.jpeg"
             },
             {
             title: "Spaghetti", 
-            ingredients: ["pasta"],
+            ingredients: ["pasta", "fruit"],
             img: "spaghetti.jpeg"
             }
         ]
@@ -26,7 +26,7 @@ class RecipeList extends Component {
     }
 
     static propTypes = {
-        recipes: PropTypes.arrayOf(PropTypes.object)
+        recipes: PropTypes.arrayOf(PropTypes.object).isRequired
     }
     render() {
 
